@@ -1,0 +1,20 @@
+{
+  "api_id": 123456,
+  "api_hash": "your_api_hash_here",
+  "session_name": "tmauto",             
+
+  "dump_channel": "@your_dump_channel", 
+  "arranged_channel": "@your_arranged_channel",
+
+  "scan_batch_size": 100,
+  "scan_sleep_seconds_between_batches": 1.0,
+
+  "posting_min_interval_seconds": 3,
+  "posting_burst_before_long_sleep": 20,
+  "posting_long_sleep_seconds": 10,
+
+  "db_path": "tmauto.db",
+  "timezone": "Asia/Kolkata",
+
+  "log_level": "INFO"
+}
